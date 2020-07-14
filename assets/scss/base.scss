@@ -1,0 +1,10 @@
+$primary: #8a0303;
+a {
+    color: $primary;
+    transition: all .3s;
+    text-decoration: none;
+
+    &:hover {
+        color: black;
+    }
+}

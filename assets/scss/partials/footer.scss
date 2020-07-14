@@ -1,0 +1,14 @@
+.footer {
+    background-color: #8a0303;
+}
+.footer_box {
+    max-width: 768px;
+
+    a {
+        color: white;
+        text-decoration: underline;
+        &:hover {
+            color: black;
+        }
+    }
+}

@@ -1,0 +1,13 @@
+{{ define "main" }}
+<header class="header_single">
+    <div class="d-flex flex-column justify-content-center container">
+        <div class="header_single--box">
+        <h1 class="text-white my-auto">{{ .Title }}</h1>
+        </div>
+    </div>
+</header>
+<main class="container py-5 content_single min-vh-100">
+    {{- partial "breadcrumb.html" . }}
+    {{ .Content }}
+</main>
+{{ end }}

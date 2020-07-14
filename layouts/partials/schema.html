@@ -1,0 +1,20 @@
+<script type="application/ld+json"> {
+    "@context" : "http://schema.org",
+    "@type" : "{{ $.Site.Params.type }}",
+    "additionalType": "Anglican",
+    "telephone":"{{ $.Site.Params.phone }}",
+    "image": "{{ $.Site.Params.image }}",
+    "address" : {
+        "@type": "PostalAddress",
+        "addressLocality": "{{ $.Site.Params.city }}",
+        "addressRegion": "{{ $.Site.Params.region }}",
+        "postalCode": "{{ $.Site.Params.postalcode }}",
+        "streetAddress": "{{ $.Site.Params.address }}" 
+    },
+    "name":"{{.Site.Title}}",
+    "url":"{{.Site.BaseURL}}",
+    "openingHours": [
+    "{{ $.Site.Params.openinghour }}"]
+}
+</script>
+  

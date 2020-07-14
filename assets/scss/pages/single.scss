@@ -1,0 +1,17 @@
+.header_single {
+        background-color: $primary;
+        margin: 0;
+        padding: 0;
+}
+.header_single--box {
+    padding: 100px 0;
+}
+.content_single {
+    a {
+        color: $primary;
+
+        &:hover {
+            color: black;
+        }
+    }
+}

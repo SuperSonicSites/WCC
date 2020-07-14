@@ -1,0 +1,97 @@
+.header {
+    background-image: url(/img/hero.jpg);
+    background-position: center;
+    background-attachment: fixed;
+    margin: 0;
+    padding: 0;
+}
+.overlay {
+    width: 100%;
+    min-height: 100%;
+    background-color: rgba(0, 0, 0, 0.70);
+}
+.logo {
+    width: 40px;
+    margin-bottom: 25px;
+}
+.header__box {
+    max-width: 980px;
+
+}
+.header_buttons {
+    max-width: 200px;
+}
+#launch {
+    font-size: 45px;
+    color: white;
+    font-weight: 700;
+    height: 90px;
+}
+
+.card-header {
+    font-size: 18px;
+    margin-bottom: 10px
+}
+.card {
+    min-height: 430px;
+}
+.heading2 {
+    font-size: 2rem;
+    font-weight: 400;
+}
+.vision_icon {
+    width: 25px;
+    height: 25px;
+}
+.card-subtitle {
+    font-size: 16px;
+}
+@media only screen and (min-width: 980px) {
+    .card-image {
+        max-height: 250px !important;
+    }
+}
+@media only screen and (max-width: 768px) {
+    .heading2{
+        text-align:center;
+    }
+    .header__box {
+        h1 {
+            font-size: 25px;
+        }
+        h2 {
+            font-size: 20px;
+        }
+    }
+    .main_text {
+        text-align: center;
+    }
+    .btn-primary {
+        width: 100%;
+    }
+    .header_cta {
+        margin: 40px 20px;
+    }
+    #launch {
+        font-size: 17px;
+        color: white;
+        font-weight: 700;
+        height: 30px;
+    }
+}
+@media only screen and (max-width: 960) {
+    .header__box {
+        h1 {
+            font-size: 30px;
+        }
+        h2 {
+            font-size: 25px;
+        }
+    }
+    #launch {
+        font-size: 20px;
+        color: white;
+        font-weight: 700;
+        height: 30px;
+    }
+}
