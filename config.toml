@@ -1,26 +1,26 @@
-baseURL = "https://www.saintlazare.ca/"
+baseURL = "/"
 languageCode = "en-ca"
-title = "Saint-Lazare Bible Church"
+title = "Westcoast Connect Freight - Ucluelet, Tofino, Port Alberni & Nanaimo"
 disableKinds = ["taxonomy", "taxonomyTerm"]
 description = "Building a Biblically Faithful, Gospel Sharing, Anglican Church in Saint-Lazare Québec"
-googleAnalytics = "UA-172365322-1"
+googleAnalytics = ""
 
 [params]
     # Schema Information
-    businessname = "Saint-Lazare Bible Church"
-    type = "Church" # Enter Your Type of business - schema.org
+    businessname = "Westcoast Connect Freight Inc."
+    type = "LocalBusiness" # Enter Your Type of business - schema.org
     reviewcount = "5" # How many reviews you've got
     reviewvalue = "4.5" # Average ratings on Yelp & Google
     reservation = "false" # Do you accept reservations? Enter true or false
     openinghour = "Su 9:00-17:00" # Opening Hours
-    address = "119 rue Saint-Pierre" # Enter Address Here
-    city = "Rigaud" # Enter City
-    region = "QC" # Enter State or Province Here
+    address = "228 Villa Rd." # Enter Address Here
+    city = "Nanaimo" # Enter City
+    region = "BC" # Enter State or Province Here
     country = "Canada" #Enter Country Here
-    postalcode = "J0P 1P0" # Enter Postal Code
-    phone = "+1-819-219-0502" # Enter Phone Number
-    email = "info@saintlazare.ca" # Enter Your Email
+    postalcode = "V9T 2P5" # Enter Postal Code
+    phone = "+1-250-816-4394" # Enter Phone Number
+    email = "coastalconnectfreight@gmail.com" # Enter Your Email
     facebookurl = "https://www.facebook.com/SaintLazareAnglican/"
     instagram = "https://instagram.com/"
-    logo = "img/cross.png"
+    logo = "img/logo.png"
     image = "img/og.jpg" # Ideal 1200 x 630 for schema + og
