@@ -1,6 +1,6 @@
 <div class="footer__box py-5">
-  <div class="container">
-  <div class="row gx-5">
+  <div class="container ">
+  <div class="row gx-5 py-5">
 
     <div class="col-lg-3 col-md-6 col-sm-12">
       <img src="{{ .Site.BaseURL}}/{{ .Site.Params.logo }}" alt="{{ .Site.Params.businessname }}" class="logo">
@@ -10,7 +10,7 @@
       <h3 class="footer__box--link">Quick Links</h3>
       <div class="d-flex flex-column">
       {{ range .Site.Menus.main -}}
-      <a class="text-uppercase pt-1" href="{{ .URL | relLangURL }}">{{ .Name }}</a>
+      <a class="text-uppercase pt-2" href="{{ .URL | relLangURL }}">{{ .Name }}</a>
       {{ end }}
     </div>
     </div>
