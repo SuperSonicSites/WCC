@@ -1,4 +1,4 @@
-baseURL = "/"
+baseURL = "https://westcoastfreight.netlify.app/"
 languageCode = "en-ca"
 title = "Westcoast Connect Freight - Ucluelet, Tofino, Port Alberni & Nanaimo"
 disableKinds = ["taxonomy", "taxonomyTerm"]
