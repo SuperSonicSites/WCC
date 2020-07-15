@@ -1,0 +1,27 @@
+<nav class="navbar bg-white navbar-expand-md navbar-light shadow">
+    <div class="container py-1">
+    <a class="navbar-brand" href="{{ .Site.BaseURL }}"><img src="{{ $.Site.BaseURL }}/{{ .Site.Params.logo }}" alt="{{ .Site.Params.businessname }}" class="nav-logo"></a>
+        <div class="desktopmenu d-flex align-items-end text-uppercase">
+          {{ range .Site.Menus.main -}}
+            <a class="nav-item nav-link uppercase" href="{{ .URL | relLangURL }}">{{ .Name }}</a>
+            {{ end }}
+        </div>
+        
+<!-- Mobile Menu -->
+<div class="menu-wrap">
+  <input type="checkbox" class="toggler">
+
+  <div class="hamburger"><div></div></div>
+  <div class="menu">
+    <div>
+      <div>
+        <ul>
+          {{ range .Site.Menus.main -}}
+          <li><a class="nav-item nav-link uppercase" href="{{ .URL | relLangURL }}">{{ .Name }}</a></li>
+          {{ end }}
+        </ul>
+      </div>
+    </div>
+  </div>
+</div>
+</nav>

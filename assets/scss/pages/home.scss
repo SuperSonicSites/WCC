@@ -1,97 +1,119 @@
-.header {
-    background-image: url(/img/hero.jpg);
-    background-position: center;
-    background-attachment: fixed;
-    margin: 0;
-    padding: 0;
-}
+// HEADER SECTION
+
 .overlay {
-    width: 100%;
-    min-height: 100%;
-    background-color: rgba(0, 0, 0, 0.70);
-}
-.logo {
-    width: 40px;
-    margin-bottom: 25px;
-}
-.header__box {
-    max-width: 980px;
-
-}
-.header_buttons {
-    max-width: 200px;
-}
-#launch {
-    font-size: 45px;
-    color: white;
-    font-weight: 700;
-    height: 90px;
+    background-color: rgba(0,0,0,.5);
 }
 
-.card-header {
-    font-size: 18px;
-    margin-bottom: 10px
-}
-.card {
-    min-height: 430px;
-}
-.heading2 {
-    font-size: 2rem;
-    font-weight: 400;
-}
-.vision_icon {
-    width: 25px;
-    height: 25px;
-}
-.card-subtitle {
-    font-size: 16px;
-}
-@media only screen and (min-width: 980px) {
-    .card-image {
-        max-height: 250px !important;
+.hero {
+    background-image: url(/img/hero.jpg);
+    border-bottom: 6px solid $brand-color;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    filter: grayscale(100%);
+
+    &__features {
+        letter-spacing: 5px;
     }
-}
-@media only screen and (max-width: 768px) {
-    .heading2{
-        text-align:center;
-    }
-    .header__box {
+
+    &__box {
+        max-width: 980px;
+        color: white;
         h1 {
-            font-size: 25px;
+            font-size: 3.2rem;
         }
         h2 {
-            font-size: 20px;
+            font-size: 1.2rem;
+        }
+        h3 {
+            font-size: 1rem;
         }
     }
-    .main_text {
+}
+
+
+// ABOUT SECTION
+
+.home__about {
+
+    &--heading {
+        position: relative;
+        z-index: 2;
+        font-size: 2rem;
+    }
+    &--heading::after {
+        color: #333;
+        content: attr(data-bg-text);
+        display: block;
+        font-size: 100px;
+        line-height: 1;
+        position: absolute;
+        top: -40px;
+        left: -10px;
+        opacity: .1;
+        z-index: 1;
+    }
+
+    &--iconbox {
+        margin: 30px 0px 20px 20px;
+
+        svg {
+            padding-top: 5px;
+        }
+
+        h4 {
+            font-size: 1rem;
+        }
+    }
+}
+
+// PROCESS SECTION
+
+.home__process {
+
+    &--heading {
+        position: relative;
+        z-index: 2;
+        font-size: 2rem;
+    }
+    &--heading::after {
+        color: #333;
+        content: attr(data-bg-text);
+        display: block;
+        font-size: 100px;
+        line-height: 1;
+        position: absolute;
+        top: -40px;
+        left: -10px;
+        opacity: .1;
+        z-index: 1;
+    }
+}
+
+// TESTIMONIAL SECTION
+
+.home__testimonials {
+
+    &--heading {
+        position: relative;
+        margin-bottom: 60px;
+        z-index: 2;
+        font-size: 2rem;
         text-align: center;
     }
-    .btn-primary {
-        width: 100%;
-    }
-    .header_cta {
-        margin: 40px 20px;
-    }
-    #launch {
-        font-size: 17px;
-        color: white;
-        font-weight: 700;
-        height: 30px;
-    }
-}
-@media only screen and (max-width: 960) {
-    .header__box {
-        h1 {
-            font-size: 30px;
-        }
-        h2 {
-            font-size: 25px;
-        }
-    }
-    #launch {
-        font-size: 20px;
-        color: white;
-        font-weight: 700;
-        height: 30px;
+    &--heading::after {
+        text-align: center;
+        color: #333;
+        content: attr(data-bg-text);
+        display: block;
+        font-size: 100px;
+        line-height: 1;
+        position: absolute;
+        top: -40px;
+        left: 20%;
+        opacity: .1;
+        z-index: 1;
     }
 }
+

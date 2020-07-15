@@ -24,3 +24,33 @@ googleAnalytics = ""
     instagram = "https://instagram.com/"
     logo = "img/logo.png"
     image = "img/og.jpg" # Ideal 1200 x 630 for schema + og
+
+[sitemap]
+  changefreq = "monthly"
+  filename = "sitemap.xml"
+    
+
+    [[menu.main]]
+        name = "Home"
+        url = "/"
+        weight = 1
+
+    [[menu.main]]
+        name = "About"
+        url = "/about/"
+        weight = 2
+
+    [[menu.main]]
+        name = "Services"
+        url = "/services/"
+        weight = 3
+
+    [[menu.main]]
+        name = "FAQ"
+        url = "/faq/"
+        weight = 4
+
+    [[menu.main]]
+        name = "Contact"
+        url = "/contact/"
+        weight = 5

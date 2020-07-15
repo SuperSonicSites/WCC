@@ -1,0 +1,16 @@
+.divider {
+    border-bottom: 1px solid grey;
+
+    .container {
+        border-bottom: 5px solid $brand-color;
+        margin-bottom: -3px;
+    }
+}
+.testimonial__divider {
+    border-bottom: 1px solid black;
+
+    .container {
+        border-bottom: 5px solid black;
+        margin-bottom: -6px;
+    }
+}
