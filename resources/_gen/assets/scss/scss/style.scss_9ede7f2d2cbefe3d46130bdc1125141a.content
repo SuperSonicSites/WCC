@@ -149,6 +149,8 @@ p {
     text-transform: uppercase;
     font-size: 1.2rem;
     color: white; }
+  .footer a:hover {
+    color: white; }
 
 .footer .credit p {
   margin: 0rem !important; }

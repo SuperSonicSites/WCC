@@ -8,6 +8,11 @@
 
     <div class="col-lg-3 col-md-6 col-sm-12">
       <h3 class="footer__box--link">Quick Links</h3>
+      <div class="d-flex flex-column">
+      {{ range .Site.Menus.main -}}
+      <a class="text-uppercase pt-1" href="{{ .URL | relLangURL }}">{{ .Name }}</a>
+      {{ end }}
+    </div>
     </div>
 
     <div class="col-lg-3 col-md-6 col-sm-12">
