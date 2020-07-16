@@ -40,6 +40,7 @@
         position: relative;
         z-index: 2;
         font-size: 2rem;
+        color: $brand-color;
     }
     &--heading::after {
         color: #333;
@@ -75,6 +76,7 @@
         position: relative;
         z-index: 2;
         font-size: 2rem;
+        color: $brand-color;
     }
     &--heading::after {
         color: #333;
@@ -100,6 +102,7 @@
         z-index: 2;
         font-size: 2rem;
         text-align: center;
+        color: $brand-color;
     }
     &--heading::after {
         text-align: center;

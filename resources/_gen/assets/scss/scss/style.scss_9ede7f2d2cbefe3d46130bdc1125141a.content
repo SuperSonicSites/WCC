@@ -83,7 +83,8 @@ svg {
 .home__about--heading {
   position: relative;
   z-index: 2;
-  font-size: 2rem; }
+  font-size: 2rem;
+  color: #0077be; }
 
 .home__about--heading::after {
   color: #333;
@@ -107,7 +108,8 @@ svg {
 .home__process--heading {
   position: relative;
   z-index: 2;
-  font-size: 2rem; }
+  font-size: 2rem;
+  color: #0077be; }
 
 .home__process--heading::after {
   color: #333;
@@ -126,7 +128,8 @@ svg {
   margin-bottom: 60px;
   z-index: 2;
   font-size: 2rem;
-  text-align: center; }
+  text-align: center;
+  color: #0077be; }
 
 .home__testimonials--heading::after {
   text-align: center;
@@ -403,3 +406,6 @@ nav a {
   background-attachment: initial;
   height: 250px;
   filter: grayscale(100%); }
+
+.bg-brand {
+  background-color: #0077be; }
