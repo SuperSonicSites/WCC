@@ -63,8 +63,7 @@ p {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  background-attachment: fixed;
-  filter: grayscale(100%); }
+  background-attachment: fixed; }
   .hero__features {
     letter-spacing: 5px; }
   .hero__box {
