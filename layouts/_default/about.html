@@ -4,29 +4,29 @@
 
 <section class="container py-5 my-5">
 
-<h2 class="text-uppercase">Who We Are</h2>
+<h2 class="text-uppercase pb-2">Who We Are</h2>
 
-<p class="pb-2">{{.Params.whoweare | safeHTML }}</p>
+<p class="pb-5">{{.Params.whoweare | safeHTML }}</p>
 
     <div class="row gx-5">
 
-        <div class="col-lg-6 col-sm-12 py-3">
+        <div class="col-lg-6 col-sm-12 py-3 d-flex flex-column align-items-center">
 
-        <img src="https://via.placeholder.com/300" alt="Mayco Noel - Co-Owner and Partner" class="img-fluid d-flex justify-content-center img-thumbnail team-pic mb-2" data-aos="fade-up" data-aos-duration="800">
+        <img src="https://via.placeholder.com/300" alt="Picture of the team" class="img-fluid d-flex justify-content-center img-thumbnail team-pic mb-2" data-aos="fade-up" data-aos-duration="800">
 
         <p class="text-left lead about-name">{{.Params.name1}}</p>
 
-        <p class="text-left">{{.Params.about1__desc | safeHTML}}</p>
+        <p class="text-center">{{.Params.name1__desc | safeHTML}}</p>
 
     </div>
 
-    <div class="col-lg-6 col-sm-12 py-3">
+    <div class="col-lg-6 col-sm-12 py-3 d-flex flex-column align-items-center">
 
-        <img src="https://via.placeholder.com/150" alt="Robby Lee - Co-Owner and Partner" class="img-fluid img-thumbnail team-pic mb-2" data-aos="fade-up" data-aos-duration="800">
+        <img src="https://via.placeholder.com/300" alt="Picture of the team" class="img-fluid d-flex justify-content-center img-thumbnail team-pic mb-2" data-aos="fade-up" data-aos-duration="800">
       
         <p class="text-left lead about-name">{{.Params.name2}}</p>
       
-        <p class="text-left">{{.Params.about2__desc | safeHTML}}</p>
+        <p class="text-center">{{.Params.name2__desc | safeHTML}}</p>
     
     </div>
   

@@ -185,9 +185,9 @@ svg {
   margin: 0rem !important; }
 
 .footer .credit a {
-  color: white; }
+  color: #0077be; }
   .footer .credit a:hover {
-    color: #0077be; }
+    color: color; }
 
 @media screen and (max-width: 768px) {
   .footer .credit p {
@@ -196,7 +196,8 @@ svg {
 
 nav a {
   color: black;
-  font-weight: 700; }
+  font-size: 1.2rem;
+  padding-left: 40px !important; }
   nav a:hover {
     color: #0077be; }
 
@@ -376,7 +377,7 @@ nav a {
 @media only screen and (max-width: 768px) {
   .nav-link {
     font-size: 32px !important;
-    font-weight: 600; } }
+    font-weight: 400; } }
 
 .carousel-inner {
   height: 400px; }
@@ -405,7 +406,7 @@ nav a {
   background-size: cover;
   background-attachment: initial;
   height: 250px;
-  filter: grayscale(100%); }
+  filter: grayscale(50%); }
 
 .bg-brand {
   background-color: #0077be; }

@@ -21,10 +21,10 @@
     margin: 0rem !important;
 }
 .footer .credit a {
-    color: white;
+    color: $brand-color;
 
     &:hover {
-        color: $brand-color;
+        color: color;
     }
 }
 @media screen and (max-width: 768px) {
