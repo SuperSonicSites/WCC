@@ -1,0 +1,171 @@
+{{ define "main" }}
+
+
+{{- partial "subheader.html" . }}
+
+
+<section class="contact__form">
+
+    <div class="container py-5 my-5">
+
+      <div class="row" data-aos="fade-up" data-aos-duration="800">
+
+        <div class="col-lg-6 col-md-6 col-sm-12">
+
+          <div class="pr-3 contact__form--info text-left">
+
+            <h2 class="pb-2 text-uppercase">{{.Title}}</h2>
+
+            <form id="contact-form" method="POST" action="https://usebasin.com/f/92b0deb4799d" role="form">
+    
+              <div class="messages"></div>
+      
+              <div class="controls">
+      
+                <div class="row">
+
+                  <div class="col-md-6 col-sm-12">
+
+                    <div class="form-group">
+
+                      <label for="form_name">First Name *</label>
+
+                      <input id="form_name" type="text" name="name" class="form-control" required="required" data-error="Firstname is required.">
+
+                      <div class="help-block with-errors"></div>
+
+                    </div>
+
+                  </div>
+
+                  <div class="col-md-6  col-sm-12">
+
+                    <div class="form-group">
+
+                      <label for="form_lastname">Last Name *</label>
+
+                      <input id="form_lastname" type="text" name="surname" class="form-control" required="required" data-error="Lastname is required.">
+
+                      <div class="help-block with-errors"></div>
+
+                    </div>
+
+                  </div>
+
+                </div>
+
+                <div class="row">
+
+                  <div class="col-md-6 col-sm-12">
+
+                    <div class="form-group">
+
+                      <label for="form_email">Email *</label>
+
+                      <input id="form_email" type="email" name="email" class="form-control"  required="required" data-error="Valid email is required.">
+
+                      <div class="help-block with-errors"></div>
+
+                    </div>
+
+                  </div>
+
+                  <div class="col-md-6 col-sm-12">
+
+                    <div class="form-group">
+
+                      <label for="form_phone">Phone</label>
+
+                      <input id="form_phone" type="tel" name="phone" class="form-control" >
+
+                      <div class="help-block with-errors"></div>
+
+                    </div>
+
+                  </div>
+
+                </div>
+
+                <div class="row">
+
+                  <div class="col-md-12">
+
+                    <div class="form-group">
+
+                      <label for="form_message">Message *</label>
+
+                      <textarea id="form_message" name="message" class="form-control" rows="4" required data-error="Please,leave us a message."></textarea>
+
+                      <div class="help-block with-errors"></div>
+
+                    </div>
+
+                  </div>
+
+                  <div class="col-md-12">
+
+                    <input type="submit" class="btn btn-primary mt-3" value="SEND">
+
+                  </div>
+
+                </div>
+               
+              </div>
+      
+              </form>
+
+        </div>
+
+      </div>
+
+      <div class="col-lg-6 col-md-6 col-sm-12 contact__form--info text-left">
+
+        <h2 class="pb-2 text-uppercase">Contact Details</h2>
+
+        <div class="contact__detail">
+
+            <svg width="2em" height="2em" viewBox="0 0 16 16" class="bi bi-geo-alt" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+
+                <path fill-rule="evenodd" d="M8 16s6-5.686 6-10A6 6 0 0 0 2 6c0 4.314 6 10 6 10zm0-7a3 3 0 1 0 0-6 3 3 0 0 0 0 6z"/>
+
+            </svg>
+
+           {{ $.Site.Params.address }}, {{ $.Site.Params.city }}, {{ $.Site.Params.region }}, {{ $.Site.Params.postalcode }}
+        </div>
+
+          <div class="contact__detail">
+
+            <svg width="2em" height="2em" viewBox="0 0 16 16" class="bi bi-telephone-outbound-fill" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+
+                <path fill-rule="evenodd" d="M2.267.98a1.636 1.636 0 0 1 2.448.152l1.681 2.162c.309.396.418.913.296 1.4l-.513 2.053a.636.636 0 0 0 .167.604L8.65 9.654a.636.636 0 0 0 .604.167l2.052-.513a1.636 1.636 0 0 1 1.401.296l2.162 1.681c.777.604.849 1.753.153 2.448l-.97.97c-.693.693-1.73.998-2.697.658a17.471 17.471 0 0 1-6.571-4.144A17.47 17.47 0 0 1 .639 4.646c-.34-.967-.035-2.004.658-2.698l.97-.969zM11 .5a.5.5 0 0 1 .5-.5h4a.5.5 0 0 1 .5.5v4a.5.5 0 0 1-1 0V1.707l-4.146 4.147a.5.5 0 0 1-.708-.708L14.293 1H11.5a.5.5 0 0 1-.5-.5z"/>
+              
+            </svg>
+
+            <a href="tel:{{ $.Site.Params.phone }}">{{ $.Site.Params.phone }}</a>
+
+          </div>
+
+          <div class="contact__detail">
+
+            <svg width="2em" height="2em" viewBox="0 0 16 16" class="bi bi-envelope-fill" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                <path fill-rule="evenodd" d="M.05 3.555A2 2 0 0 1 2 2h12a2 2 0 0 1 1.95 1.555L8 8.414.05 3.555zM0 4.697v7.104l5.803-3.558L0 4.697zM6.761 8.83l-6.57 4.027A2 2 0 0 0 2 14h12a2 2 0 0 0 1.808-1.144l-6.57-4.027L8 9.586l-1.239-.757zm3.436-.586L16 11.801V4.697l-5.803 3.546z"/>
+              </svg>
+
+            <a href="mailto:{{ $.Site.Params.email }}">{{ $.Site.Params.email }}</a>
+
+        </div>
+
+        <div class="map-wrapper">
+
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2606.327022228995!2d-123.9984251841371!3d49.213324883603136!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x5488a1f9e78288cb%3A0x710e800d47db136a!2s228%20Villa%20Rd%2C%20Nanaimo%2C%20BC%20V9T%202P5!5e0!3m2!1sfr!2sca!4v1594921855736!5m2!1sfr!2sca" width="100%" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+
+        </div>
+
+      </div>
+
+    </div>
+    
+    </div>
+
+</section>  
+{{ end }}
