@@ -5,7 +5,7 @@ layout: home
 
 # Hero Header Section
 
-heading1: "The West Coast's Daily Freight & Delivery Service"
+heading1: "Your West Coast Daily Freight & Delivery Service"
 heading2: "Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
 headingbullet: "Feature 1 - Feature 2 - Feature 3"
 
