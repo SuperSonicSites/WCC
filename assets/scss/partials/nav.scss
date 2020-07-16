@@ -8,6 +8,9 @@ nav {
       color: $brand-color;
     }
   }
+  .navbar-brand {
+    padding-left: 0px !important;
+  }
 }
 .nav-logo {
     max-width: 200px;

@@ -197,9 +197,12 @@ svg {
 nav a {
   color: black;
   font-size: 1.2rem;
-  padding-left: 40px !important; }
+  padding-left: 37px !important; }
   nav a:hover {
     color: #0077be; }
+
+nav .navbar-brand {
+  padding-left: 0px !important; }
 
 .nav-logo {
   max-width: 200px; }
