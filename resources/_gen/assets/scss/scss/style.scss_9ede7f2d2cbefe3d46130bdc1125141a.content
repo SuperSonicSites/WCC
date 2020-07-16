@@ -1,5 +1,5 @@
 a {
-  color: grey;
+  color: #0077be;
   transition: all .3s;
   text-decoration: none; }
   a:hover {
@@ -28,22 +28,22 @@ p {
   color: #888; }
 
 svg {
-  fill: grey; }
+  fill: #0077be; }
 
 .btn-primary {
-  background-color: grey;
-  border-color: grey;
+  background-color: #0077be;
+  border-color: #0077be;
   border-radius: 2px;
   box-shadow: 0px 0px 30px 2px rgba(0, 0, 0, 0.2); }
 
 .btn-primary:hover {
-  background-color: grey;
-  border-color: grey;
+  background-color: #0077be;
+  border-color: #0077be;
   opacity: 0.8; }
 
 .btn-primary:active {
-  background-color: grey;
-  border-color: grey; }
+  background-color: #0077be;
+  border-color: #0077be; }
 
 .btn-check:active + .btn-primary:focus, .btn-check:checked + .btn-primary:focus, .btn-primary.active:focus, .btn-primary:active:focus, .show > .btn-primary.dropdown-toggle:focus {
   box-shadow: none !important; }
@@ -55,15 +55,15 @@ svg {
   box-shadow: none; }
 
 .btn-primary:focus {
-  background-color: grey;
-  border-color: grey; }
+  background-color: #0077be;
+  border-color: #0077be; }
 
 .overlay {
   background-color: rgba(0, 0, 0, 0.5); }
 
 .hero {
   background-image: url(/img/hero.jpg);
-  border-bottom: 6px solid grey;
+  border-bottom: 6px solid #0077be;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -147,10 +147,10 @@ svg {
 
 .contact__detail {
   padding: 15px 0;
-  border-top: 1px solid grey; }
+  border-top: 1px solid #0077be; }
 
 .contact__detail a {
-  fill: grey; }
+  fill: #0077be; }
 
 .contact__detail a:hover {
   fill: black; }
@@ -184,7 +184,7 @@ svg {
 .footer .credit a {
   color: white; }
   .footer .credit a:hover {
-    color: grey; }
+    color: #0077be; }
 
 @media screen and (max-width: 768px) {
   .footer .credit p {
@@ -194,6 +194,8 @@ svg {
 nav a {
   color: black;
   font-weight: 700; }
+  nav a:hover {
+    color: #0077be; }
 
 .nav-logo {
   max-width: 200px; }
@@ -339,7 +341,7 @@ nav a {
   cursor: pointer;
   width: 50px;
   height: 50px;
-  background-color: grey;
+  background-color: #0077be;
   text-indent: -9999px;
   display: none;
   -webkit-border-radius: 60px;
@@ -385,7 +387,7 @@ nav a {
 .divider {
   border-bottom: 1px solid grey; }
   .divider .container {
-    border-bottom: 5px solid grey;
+    border-bottom: 5px solid #0077be;
     margin-bottom: -3px; }
 
 .testimonial__divider {
