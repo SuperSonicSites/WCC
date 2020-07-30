@@ -1,9 +1,9 @@
 <nav class="navbar bg-white navbar-expand-md navbar-light shadow">
     <div class="container py-1">
-    <a class="navbar-brand" href="{{ .Site.BaseURL }}"><img src="{{ $.Site.BaseURL }}/{{ .Site.Params.logo }}" alt="{{ .Site.Params.businessname }}" class="nav-logo"></a>
+    <a class="navbar-brand" href="{{ .Site.BaseURL }}">WestCoastConnect</a>
         <div class="desktopmenu d-flex align-items-end text-uppercase">
           {{ range .Site.Menus.main -}}
-            <a class="nav-item nav-link uppercase" href="{{ .URL | relLangURL }}">{{ .Name }}</a>
+            <a class="nav-item nav-link uppercase" href="{{ .URL }}">{{ .Name }}</a>
             {{ end }}
         </div>
         

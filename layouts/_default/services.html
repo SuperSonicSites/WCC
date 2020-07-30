@@ -1,0 +1,34 @@
+{{ define "main" }}
+
+{{- partial "subheader.html" . }}
+
+
+<section class="container py-5 my-5">
+
+    <h2 class="home__process--heading text-uppercase display-4 font-weight-bold" data-bg-text="{{ .Params.heading2 }}" data-aos="fade-right">{{ .Params.heading2 }}</h2>
+
+    <div class="row g-5">
+
+        <div class="col-lg-6 col-md-12 order-lg-1 order-md-2 order-sm-2 order-2">
+
+
+            <p class="pt-5 display-5">{{ .Params.heading3 }}</p>
+
+            <p>{{ .Params.description }}</p>
+
+            <a href="{{ .Site.BaseURL}}contact" class="btn btn-primary my-3">Contact Us For A Quote</a>
+              
+        </div>
+
+        <div class="col-lg-6 col-md-12 order-lg-2 order-md-1 order-sm-1 order-1">
+
+            <img src="{{ .Site.BaseURL}}img/services.jpg" alt="" class="img-fluid shadow">
+
+        </div>
+
+    </div>
+
+</section>
+
+
+{{ end }}

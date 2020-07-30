@@ -1,4 +1,4 @@
-baseURL = "https://westcoastfreight.netlify.app/"
+baseURL = "/"
 languageCode = "en-ca"
 title = "Westcoast Connect Freight - Ucluelet, Tofino, Port Alberni & Nanaimo"
 disableKinds = ["taxonomy", "taxonomyTerm"]
@@ -20,7 +20,7 @@ googleAnalytics = ""
     postalcode = "V9T 2P5" # Enter Postal Code
     phone = "+1-250-816-4394" # Enter Phone Number
     email = "coastalconnectfreight@gmail.com" # Enter Your Email
-    facebookurl = "https://www.facebook.com/SaintLazareAnglican/"
+    facebookurl = "https://www.facebook.com/"
     instagram = "https://instagram.com/"
     logo = "img/logo.png"
     image = "img/og.jpg" # Ideal 1200 x 630 for schema + og

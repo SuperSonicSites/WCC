@@ -9,7 +9,16 @@ nav {
     }
   }
   .navbar-brand {
-    padding-left: 0px !important;
+    padding: 20px !important;
+    border: 3px solid $brand-color;
+    transition: all .5s;
+    letter-spacing: .2em;
+    background-color: $brand-color;
+    color: white !important;
+    
+  }
+  .navbar-brand:hover {
+    border-color: white;
   }
 }
 .nav-logo {
@@ -35,7 +44,7 @@ nav {
       }
       .menu-wrap .toggler {
         position: absolute;
-        top: 35px;
+        top: 22px;
         right: 10px;
         z-index: 2;
         cursor: pointer;
@@ -46,7 +55,7 @@ nav {
       
       .menu-wrap .hamburger {
         position: absolute;
-        top: 35px;
+        top: 22px;
         right: 10px;
         z-index: 1;
         width: 55px;

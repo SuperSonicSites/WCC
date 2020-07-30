@@ -4,17 +4,17 @@
 
 <section class="container py-5 my-5">
 
-<h2 class="text-uppercase pb-2">Who We Are</h2>
+    <h2 class="home__process--heading text-uppercase display-4 font-weight-bold" data-bg-text="WHO WE ARE" data-aos="fade-right">WHO WE ARE</h2>
 
-<p class="pb-5">{{.Params.whoweare | safeHTML }}</p>
+<p class="py-5">{{.Params.whoweare | safeHTML }}</p>
 
     <div class="row gx-5">
 
         <div class="col-lg-6 col-sm-12 py-3 d-flex flex-column align-items-center">
 
-        <img src="https://via.placeholder.com/300" alt="Picture of the team" class="img-fluid d-flex justify-content-center img-thumbnail team-pic mb-2" data-aos="fade-up" data-aos-duration="800">
+        <img src="{{ $.Site.BaseURL }}img/aboutimg1.jpg" alt="Picture of the team" class="img-fluid d-flex justify-content-center img-thumbnail team-pic mb-2" data-aos="fade-up" data-aos-duration="800">
 
-        <p class="text-left lead about-name">{{.Params.name1}}</p>
+        <h3 class="text-left display-5 my-2">{{.Params.name1}}</h3>
 
         <p class="text-center">{{.Params.name1__desc | safeHTML}}</p>
 
@@ -22,9 +22,9 @@
 
     <div class="col-lg-6 col-sm-12 py-3 d-flex flex-column align-items-center">
 
-        <img src="https://via.placeholder.com/300" alt="Picture of the team" class="img-fluid d-flex justify-content-center img-thumbnail team-pic mb-2" data-aos="fade-up" data-aos-duration="800">
+        <img src="{{ $.Site.BaseURL }}img/aboutimg2.jpg" alt="Picture of the team" class="img-fluid d-flex justify-content-center img-thumbnail team-pic mb-2" data-aos="fade-up" data-aos-duration="800">
       
-        <p class="text-left lead about-name">{{.Params.name2}}</p>
+        <h3 class="text-left display-5 my-2">{{.Params.name2}}</h3>
       
         <p class="text-center">{{.Params.name2__desc | safeHTML}}</p>
     

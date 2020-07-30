@@ -1,23 +1,55 @@
 <!doctype html>
+
 <html lang="en-ca">
-  <head>
-    <!-- Required meta tags -->
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/css/bootstrap.min.css" integrity="sha384-r4NyP46KrjDleawBgD5tp8Y7UzmLA05oM1iAEQ17CSuDqnUK2+k9luXQOfXJCJ4I" crossorigin="anonymous">
-    {{ $style := resources.Get "scss/style.scss" | toCSS (dict "targetPath" "css/style.css") }}
-    <link rel="stylesheet" href="{{ ($style).RelPermalink }}"/>
-    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
-    <title>{{.Title}}</title>
-    {{- partial "schema.html" . }}
-  </head>
-  <body>
-    <div id="content">
-      {{- partial "nav.html" . }}
-        {{- block "main" . }}{{- end }}
-    </div>
-    {{ template "_internal/google_analytics.html" . }}
-  </body>
-  <footer class="footer">{{- partial "footer.html" . }}</footer>
+
+<head>
+
+  <!-- Required meta tags -->
+
+  <meta charset="utf-8">
+
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- Bootstrap CSS -->
+
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/css/bootstrap.min.css" integrity="sha384-r4NyP46KrjDleawBgD5tp8Y7UzmLA05oM1iAEQ17CSuDqnUK2+k9luXQOfXJCJ4I" crossorigin="anonymous">
+
+  {{ $style := resources.Get "scss/style.scss" | toCSS (dict "targetPath" "css/style.css") }}
+
+  <link rel="stylesheet" href="{{ ($style).RelPermalink }}"/>
+
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+  <title>{{.Title}}</title>
+
+  {{- partial "schema.html" . }}
+
+  {{ if .Params.hidden }}
+  
+  <meta name="robots" content="noindex" />
+
+  {{ else }}
+
+  <meta name="robots" content="index, follow">
+
+  {{ end }}
+
+</head>
+
+<body>
+
+  <div id="content">
+
+    {{- partial "nav.html" . }}
+
+    {{- block "main" . }}{{- end }}
+
+  </div>
+
+  {{ template "_internal/google_analytics.html" . }}
+
+</body>
+
+<footer class="footer">{{- partial "footer.html" . }}</footer>
+
 </html>
