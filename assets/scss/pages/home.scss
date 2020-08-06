@@ -15,6 +15,10 @@
     &__features {
         letter-spacing: 5px;
     }
+    
+    &__img {
+        max-width: 250px;
+    }
 
     &__box {
         max-width: 980px;
@@ -31,6 +35,22 @@
     }
 }
 
+@media only screen and (max-width: 768px) {
+
+.hero__box {
+
+        h1 {
+            font-size: 2.5rem;
+        }
+        h2 {
+            font-size: 1.2rem;
+        }
+        h3 {
+            font-size: 1rem;
+        }
+    }
+  
+}
 
 // ABOUT SECTION
 
@@ -77,6 +97,7 @@
         z-index: 2;
         font-size: 2rem;
         color: $brand-color;
+        z-index: 0;
     }
     &--heading::after {
         color: #333;
