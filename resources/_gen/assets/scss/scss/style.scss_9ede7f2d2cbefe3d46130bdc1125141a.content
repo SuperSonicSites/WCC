@@ -194,20 +194,20 @@ svg {
     font-size: 0.9rem;
     margin: .5rem 0; } }
 
+.navbar-brand {
+  padding: 12px !important;
+  border: 3px solid #0077be;
+  transition: all .5s;
+  letter-spacing: .2em;
+  background-color: #0077be;
+  color: white !important; }
+
 nav a {
   color: black;
   font-size: 1.25rem;
   padding-left: 37px !important; }
   nav a:hover {
     color: #0077be; }
-
-nav .navbar-brand {
-  padding: 20px !important;
-  border: 3px solid #0077be;
-  transition: all .5s;
-  letter-spacing: .2em;
-  background-color: #0077be;
-  color: white !important; }
 
 nav .navbar-brand:hover {
   border-color: white; }
@@ -398,6 +398,37 @@ nav .navbar-brand:hover {
     color: white;
     text-transform: uppercase;
     font-weight: 700; }
+
+.accordion-section .panel-default > .panel-heading {
+  border: 0;
+  background: #f4f4f4;
+  padding: 0; }
+
+.accordion-section .panel-default .panel-title a {
+  display: block;
+  font-size: 1.2rem; }
+
+.collapsed {
+  color: black !important; }
+
+a:hover {
+  color: black;
+  text-decoration: none; }
+
+.accordion-section .panel-default .panel-title a:after {
+  font-style: normal;
+  font-size: 25px;
+  content: "\0025B4";
+  color: #0077be;
+  float: right;
+  margin-top: 0px;
+  border-radius: 100%; }
+
+.accordion-section .panel-default .panel-title a.collapsed:after {
+  content: "\0025BE"; }
+
+.accordion-section .panel-default .panel-body {
+  font-size: 1rem; }
 
 .divider {
   border-bottom: 1px solid grey; }

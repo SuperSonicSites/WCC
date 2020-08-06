@@ -1,0 +1,31 @@
+.accordion-section .panel-default > .panel-heading {
+    border: 0;
+    background: #f4f4f4;
+    padding: 0;
+}
+.accordion-section .panel-default .panel-title a {
+    display: block;
+    font-size: 1.2rem;
+}
+.collapsed {
+    color: black !important;
+}
+a:hover {
+    color: black;
+    text-decoration: none;
+}
+.accordion-section .panel-default .panel-title a:after {
+    font-style: normal;
+    font-size: 25px;
+    content: "\0025B4";
+    color: $brand-color;
+    float: right;
+    margin-top: 0px;
+    border-radius: 100%;
+}
+.accordion-section .panel-default .panel-title a.collapsed:after {
+    content: "\0025BE";
+}
+.accordion-section .panel-default .panel-body {
+    font-size: 1rem;
+}

@@ -1,3 +1,12 @@
+.navbar-brand {
+  padding: 12px !important;
+  border: 3px solid $brand-color;
+  transition: all .5s;
+  letter-spacing: .2em;
+  background-color: $brand-color;
+  color: white !important;
+  
+}
 nav {
   a {
     color: black;
@@ -8,15 +17,7 @@ nav {
       color: $brand-color;
     }
   }
-  .navbar-brand {
-    padding: 20px !important;
-    border: 3px solid $brand-color;
-    transition: all .5s;
-    letter-spacing: .2em;
-    background-color: $brand-color;
-    color: white !important;
-    
-  }
+
   .navbar-brand:hover {
     border-color: white;
   }
