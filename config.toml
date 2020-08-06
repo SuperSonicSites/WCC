@@ -1,8 +1,8 @@
 baseURL = "/"
 languageCode = "en-ca"
-title = "Westcoast Connect Freight - Ucluelet, Tofino, Port Alberni & Nanaimo"
+title = "Westcoast Connect"
 disableKinds = ["taxonomy", "taxonomyTerm"]
-description = "Building a Biblically Faithful, Gospel Sharing, Anglican Church in Saint-Lazare Québec"
+description = "Daily shipping from Nanaimo + Port Alberni to Ucluelet & Tofino"
 googleAnalytics = ""
 
 [params]
@@ -12,14 +12,14 @@ googleAnalytics = ""
     reviewcount = "5" # How many reviews you've got
     reviewvalue = "4.5" # Average ratings on Yelp & Google
     reservation = "false" # Do you accept reservations? Enter true or false
-    openinghour = "Su 9:00-17:00" # Opening Hours
+    openinghour = "Mon - Fri 8:00-17:00" # Opening Hours
     address = "228 Villa Rd." # Enter Address Here
     city = "Nanaimo" # Enter City
     region = "BC" # Enter State or Province Here
     country = "Canada" #Enter Country Here
     postalcode = "V9T 2P5" # Enter Postal Code
     phone = "+1-250-816-4394" # Enter Phone Number
-    email = "coastalconnectfreight@gmail.com" # Enter Your Email
+    email = "info@westcoastconnect.com" # Enter Your Email
     facebookurl = "https://www.facebook.com/"
     instagram = "https://instagram.com/"
     logo = "img/logo.png"

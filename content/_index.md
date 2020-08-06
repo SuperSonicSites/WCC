@@ -1,13 +1,13 @@
 ---
 title: "Homepage"
-description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+description: "Your daily shipping service from Nanaimo + Port Alberni to Ucluelet & Tofino"
 layout: home
 
 # Hero Header Section
 
 heading1: "Your West Coast Daily Freight & Delivery Service"
-heading2: "Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
-headingbullet: "Feature 1 - Feature 2 - Feature 3"
+heading2: "Daily shipping from Nanaimo + Port Alberni to Ucluelet & Tofino"
+headingbullet: "You Can't Stop The Wave"
 
 # About Section
 
