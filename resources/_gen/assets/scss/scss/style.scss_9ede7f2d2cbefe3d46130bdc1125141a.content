@@ -70,8 +70,6 @@ svg {
   background-attachment: fixed; }
   .hero__features {
     letter-spacing: 5px; }
-  .hero__img {
-    max-width: 250px; }
   .hero__box {
     max-width: 980px;
     color: white; }
@@ -81,6 +79,9 @@ svg {
       font-size: 1.2rem; }
     .hero__box h3 {
       font-size: 1rem; }
+
+.hero__img {
+  max-width: 250px; }
 
 @media only screen and (max-width: 768px) {
   .hero__box h1 {
