@@ -3,7 +3,6 @@
 
 {{- partial "subheader.html" . }}
 
-
 <section class="contact__form">
 
     <div class="container py-5 my-5">
@@ -12,109 +11,141 @@
 
         <div class="col-lg-6 col-md-6 col-sm-12">
 
-          <div class="pr-3 contact__form--info text-left">
+          <h2 class="pb-2 text-uppercase">Contact Details</h2>
 
-            <h2 class="pb-2 text-uppercase">{{.Title}}</h2>
+<form id="contact-form" method="POST" action="https://usebasin.com/f/92b0deb4799d" role="form">
 
-            <form id="contact-form" method="POST" action="https://usebasin.com/f/92b0deb4799d" role="form">
-    
-              <div class="messages"></div>
-      
-              <div class="controls">
-      
-                <div class="row">
+  <div class="form-group row">
 
-                  <div class="col-md-6 col-sm-12">
+    <label for="text" class="col-4 col-form-label">First Name</label> 
 
-                    <div class="form-group">
+    <div class="col-8">
 
-                      <label for="form_name">First Name *</label>
+      <input id="text" name="text" type="text" class="form-control" required="required">
 
-                      <input id="form_name" type="text" name="name" class="form-control" required="required" data-error="Firstname is required.">
+    </div>
 
-                      <div class="help-block with-errors"></div>
+  </div>
 
-                    </div>
+  <div class="form-group row">
 
-                  </div>
+    <label for="text1" class="col-4 col-form-label">Last Name</label> 
 
-                  <div class="col-md-6  col-sm-12">
+    <div class="col-8">
 
-                    <div class="form-group">
+      <input id="text1" name="text1" type="text" class="form-control" required="required">
 
-                      <label for="form_lastname">Last Name *</label>
+    </div>
 
-                      <input id="form_lastname" type="text" name="surname" class="form-control" required="required" data-error="Lastname is required.">
+  </div>
 
-                      <div class="help-block with-errors"></div>
+  <div class="form-group row">
 
-                    </div>
+    <label for="email" class="col-4 col-form-label">Email</label> 
 
-                  </div>
+    <div class="col-8">
 
-                </div>
+      <input id="email" name="email" type="text" class="form-control" required="required">
 
-                <div class="row">
+    </div>
 
-                  <div class="col-md-6 col-sm-12">
+  </div>
 
-                    <div class="form-group">
+  <div class="form-group row">
 
-                      <label for="form_email">Email *</label>
+    <label for="phone" class="col-4 col-form-label">Phone</label> 
 
-                      <input id="form_email" type="email" name="email" class="form-control"  required="required" data-error="Valid email is required.">
+    <div class="col-8">
 
-                      <div class="help-block with-errors"></div>
+      <input id="phone" name="phone" type="text" class="form-control" required="required">
 
-                    </div>
+    </div>
 
-                  </div>
+  </div>
 
-                  <div class="col-md-6 col-sm-12">
+  <div class="form-group row">
 
-                    <div class="form-group">
+    <label for="pickup" class="col-4 col-form-label">Pick Up Location</label> 
 
-                      <label for="form_phone">Phone</label>
+    <div class="col-8">
 
-                      <input id="form_phone" type="tel" name="phone" class="form-control" >
+      <input id="pickup" name="pickup" type="text" class="form-control" required="required">
 
-                      <div class="help-block with-errors"></div>
+    </div>
 
-                    </div>
+  </div>
 
-                  </div>
+  <div class="form-group row">
 
-                </div>
+    <label for="weight-dimension" class="col-4 col-form-label">Appx Weight &amp; Dimensions Of Package Being Picked Up</label> 
 
-                <div class="row">
+    <div class="col-8">
 
-                  <div class="col-md-12">
+      <input id="weight-dimension" name="weight-dimension" type="text" required="required" class="form-control">
 
-                    <div class="form-group">
+    </div>
 
-                      <label for="form_message">Message *</label>
+  </div>
 
-                      <textarea id="form_message" name="message" class="form-control" rows="4" required data-error="Please,leave us a message."></textarea>
+  <div class="form-group row">
 
-                      <div class="help-block with-errors"></div>
+    <label for="drop-off" class="col-4 col-form-label">Drop Off Location</label> 
 
-                    </div>
+    <div class="col-8">
 
-                  </div>
+      <input id="drop-off" name="drop-off" type="text" required="required" class="form-control">
 
-                  <div class="col-md-12">
+    </div>
 
-                    <input type="submit" class="btn btn-primary mt-3" value="SEND">
+  </div>
 
-                  </div>
+  <div class="form-group row">
 
-                </div>
-               
-              </div>
-      
-              </form>
+    <label for="dropoff-date" class="col-4 col-form-label">Date Of Drop Off</label> 
 
-        </div>
+    <div class="col-8">
+
+      <input id="dropoff-date" name="dropoff-date" type="text" class="form-control" required="required">
+
+    </div>
+
+  </div>
+
+  <div class="form-group row">
+
+    <label for="Extra" class="col-4 col-form-label">Extra Info To Help Pick Up or Drop Off (Who to pick up from, where to drop)</label> 
+
+    <div class="col-8">
+
+      <textarea id="Extra" name="Extra" cols="40" rows="5" class="form-control"></textarea>
+
+    </div>
+
+  </div>
+
+  <div class="form-group row">
+
+    <label for="GeneralMessage" class="col-4 col-form-label">Extra Info To Help Pick Up or Drop Off (Who to pick up from, where to drop)</label> 
+
+    <div class="col-8">
+
+      <textarea id="GeneralMessage" name="GeneralMessage" cols="40" rows="5" class="form-control"></textarea>
+
+    </div>
+
+  </div> 
+
+  <div class="form-group row">
+
+    <div class="offset-4 col-8">
+
+      <button name="submit" type="submit" class="btn btn-primary">SEND</button>
+
+    </div>
+
+  </div>
+
+</form>
 
       </div>
 

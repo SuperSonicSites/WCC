@@ -7,8 +7,8 @@ heading2: "Delivery"
 heading3: "Quick, Easy And Affordable"
 
 description: "<h4>We deliver daily from Nanaimo + Port Alberni:</h4>
-<p><strong>Hours: 8am to 5pm</strong></p>
-<p><strong>Days: Monday to Friday (Weekends on call)</strong></p>
+<p>Hours: 8am to 5pm</p>
+<p>Days: Monday to Friday (Weekends on call)</p>
 
 <h4>Top Pick Up Locations:</h4>
 
