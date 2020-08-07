@@ -5,7 +5,10 @@ layout: about
 
 # Content
 
-whoweare: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+whoweare: "We founded Westcoast Connect to help get packages out to the Coast. We grew the business through word of mouth and soon we had a thriving operation helping deliver packages to all our friends in Ucluelet & Tofino.<br></br>
+At our core we’ve grown along side our customers, and are so happy to be part of fabric of our West Coast communities. We go out of our way to help get everything delivered on time, do it with a smile and above all we are friendly. Thanks so much for all your business and support!
+<br><br>
+#SmallBusinessIsAwesome"
 
 name1: "Ryan Wackett"
 name1__desc: "Founder & Operations Manager"

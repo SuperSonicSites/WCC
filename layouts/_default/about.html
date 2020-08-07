@@ -6,28 +6,21 @@
 
     <h2 class="home__process--heading text-uppercase display-4 font-weight-bold" data-bg-text="WHO WE ARE" data-aos="fade-right">WHO WE ARE</h2>
 
-<p class="py-5">{{.Params.whoweare | safeHTML }}</p>
+    <div class="row gx-5 py-5">
 
-    <div class="row gx-5">
-
-        <div class="col-lg-6 col-sm-12 py-3 d-flex flex-column align-items-center">
-
-        <img src="{{ $.Site.BaseURL }}img/aboutimg1.jpg" alt="Picture of the team" class="img-fluid d-flex justify-content-center img-thumbnail team-pic mb-2" data-aos="fade-up" data-aos-duration="800">
-
-        <h3 class="text-left display-5 my-2">{{.Params.name1}}</h3>
-
-        <p class="text-center">{{.Params.name1__desc | safeHTML}}</p>
+        <div class="col-lg-4 col-sm-12 py-3 d-flex flex-column align-items-center">
+        
+            <figure class="figure mb-lg-0 mb-5">
+                <img src="{{ $.Site.BaseURL }}img/aboutimg1.jpg" alt="Picture of the team" class="img-fluid d-flex justify-content-center img-thumbnail team-pic mb-2" data-aos="fade-up" data-aos-duration="800">
+                <figcaption class="figure-caption">Ryan Wackett & Elsie Koulelis</figcaption>
+              </figure>
 
     </div>
 
-    <div class="col-lg-6 col-sm-12 py-3 d-flex flex-column align-items-center">
-
-        <img src="{{ $.Site.BaseURL }}img/aboutimg2.jpg" alt="Picture of the team" class="img-fluid d-flex justify-content-center img-thumbnail team-pic mb-2" data-aos="fade-up" data-aos-duration="800">
-      
-        <h3 class="text-left display-5 my-2">{{.Params.name2}}</h3>
-      
-        <p class="text-center">{{.Params.name2__desc | safeHTML}}</p>
-    
+    <div class="col-lg-8 col-sm-12 py-3">
+     
+        <p class="text-lg-left text-center">{{.Params.whoweare | safeHTML }}</p>
+   
     </div>
   
     </div>

@@ -158,30 +158,32 @@
     
         <ol class="carousel-indicators">
     
-            <li data-target="#carouselExampleIndicators" class="bg-dark my-5 py-1" data-slide-to="0" class="active"></li>
+            <li data-target="#carouselExampleIndicators" class="bg-dark my-3 py-1" data-slide-to="0" class="active"></li>
     
-            <li data-target="#carouselExampleIndicators" class="bg-dark my-5 py-1" data-slide-to="1"></li>
+            <li data-target="#carouselExampleIndicators" class="bg-dark my-3 py-1" data-slide-to="1"></li>
     
         </ol>
     
         <div class="carousel-inner">
     
-            <div class="carousel-item active text-center py-8">
-    
-                <img src="https://via.placeholder.com/150" alt="Image of the person giving a testimonial" class="img-fluid img-thumbnail testimonial-img m-auto mb-2">
-    
+            <div class="carousel-item active text-center">
+ <!--   
+                <img src="https://via.placeholder.com/150" alt="Image of the person giving a testimonial" class="img-fluid img-thumbnail testimonial-img m-auto mb-2 display-none">
+    -->
                 <h3 class="py-2">{{.Params.testimonial1}}</h3>
-    
+                <p>{{.Params.testimonial1_desc }}</p>
+                <p>{{.Params.testimonial1_site }}</p>
                 <p class="text-center w-75 m-auto">{{.Params.testimonial1__desc}}</p>
     
             </div>
     
-            <div class="carousel-item text-center py-8">
+            <div class="carousel-item text-center">
     
-                <img src="https://via.placeholder.com/150" alt="Image of the person giving a testimonial" class="img-fluid img-thumbnail testimonial-img m-auto mb-2">
-    
+<!--                <img src="https://via.placeholder.com/150" alt="Image of the person giving a testimonial" class="img-fluid img-thumbnail testimonial-img m-auto mb-2 display-none">
+    -->
                 <h3 class="py-2">{{.Params.testimonial2}}</h3>
-    
+                <p>{{.Params.testimonial2_desc }}</p>
+                <p>{{.Params.testimonial2_site }}</p>
                 <p class="text-center w-75 m-auto">{{.Params.testimonial2__desc}}</p>
     
             </div>
