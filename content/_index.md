@@ -24,11 +24,11 @@ benefit2_text: "We are proud members of the Ucluelet Chamber Of Commerce."
 
 # Calculate Section
 
-process_text1: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur."
+process_text1: "Please place your delivery order at least 1 day in advance so we can have enough time to organize the pick up and delivery of your item with our scheduled crews."
 
-process_text2: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur."
+process_text2: "Simply fill out <strong>our delivery form</strong>, or call in during business hours to get your delivery started. We deliver Monday to Friday from Nanaimo area (with pick ups along the way) to Ucluelet & Tofino."
 
-process_text3: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur."
+process_text3: "We start truck operations at 6am every weekday. We will pick up items Monday to Friday for daily delivery to the West Coast communities of Ucluelet & Tofino (We also can deliver to Port Alberni and communities along the way). Delivery in Ucluelet & Tofino usually starts at 12 noon and goes till 5pm Monday to Friday."
 
 # Testimonial Section
 

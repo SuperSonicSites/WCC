@@ -1,5 +1,5 @@
 ---
-title: "Contact Page"
+title: "Contact"
 description: "Lorem Ipsum"
 layout: contact
 ---

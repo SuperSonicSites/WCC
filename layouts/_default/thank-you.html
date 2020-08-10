@@ -1,0 +1,7 @@
+{{ define "main" }}
+<section class="container min-vh-100 d-flex flex-column align-items-center justify-content-center">
+<h1 class="display-4">Your message was succesfully sent</h1>
+<h3 class="display-5">We will reply to you as soon as possible.</h3>
+<a href="{{ .Site.BaseURL }}"><button class="mt-2 btn btn-outline-dark btn-lg">{{.Params.cta}}</button></a>
+</section>
+{{ end }}

@@ -127,15 +127,15 @@
         
         <div class="col-md-6 col-sm-12">
 
-            <h2 class="home__process--heading text-uppercase display-4 font-weight-bold" data-bg-text="ORDER" data-aos="fade-right">1. ORDER</h2>
+            <h2 class="home__process--heading text-uppercase display-4 font-weight-bold" data-bg-text="WHEN TO ORDER" data-aos="fade-right">1. WHEN TO ORDER</h2>
 
-            <p class="my-5 pb-4" data-aos="fade-right">{{ .Params.process_text1 }}</p>
+            <p class="my-5 pb-4" data-aos="fade-right">{{ .Params.process_text1 | safeHTML}}</p>
 
-            <h2 class="home__process--heading text-uppercase display-4 font-weight-bold" data-bg-text="WAIT" data-aos="fade-right">2. WAIT</h2>
+            <h2 class="home__process--heading text-uppercase display-4 font-weight-bold" data-bg-text="PLACE ORDER" data-aos="fade-right">2. PLACE ORDER</h2>
 
-            <p class="my-5 pb-4" data-aos="fade-right">{{ .Params.process_text2 }}</p>
+            <p class="my-5 pb-4" data-aos="fade-right">{{ .Params.process_text2 | safeHTML }}</p>
 
-            <h2 class="home__process--heading text-uppercase display-4 font-weight-bold" data-bg-text="DELIVER" data-aos="fade-right">3. DELIVER</h2>
+            <h2 class="home__process--heading text-uppercase display-4 font-weight-bold" data-bg-text="DELIVERY" data-aos="fade-right">3. DELIVERY</h2>
 
             <p class="my-5" data-aos="fade-right">{{ .Params.process_text3 }}</p>
             
