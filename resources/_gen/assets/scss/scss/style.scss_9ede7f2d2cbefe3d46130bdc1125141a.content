@@ -156,6 +156,16 @@ svg {
   opacity: .1;
   z-index: 1; }
 
+@media only screen and (max-width: 768px) {
+  .home__testimonials--heading::after {
+    display: none; }
+  .home__about--heading::after {
+    font-size: 60px;
+    top: -10px; }
+  .home__process--heading::after {
+    font-size: 60px;
+    top: -15px; } }
+
 .contact__form--info {
   text-align: center;
   margin-bottom: 3.5rem; }
@@ -408,13 +418,17 @@ nav .navbar-brand:hover {
     font-weight: 400; } }
 
 .carousel-inner {
-  height: 300px; }
+  height: 430px; }
   .carousel-inner p {
     color: white; }
   .carousel-inner h3 {
     color: white;
     text-transform: uppercase;
     font-weight: 700; }
+
+.testimonial-img {
+  width: 150px;
+  height: 150px; }
 
 .accordion-section .panel-default > .panel-heading {
   border: 0;

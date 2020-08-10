@@ -5,18 +5,16 @@
 
 <section class="container py-5 my-5">
 
-    <h3 class="home__process--heading text-uppercase display-4 font-weight-bold" data-bg-text="{{ .Params.heading2 }}" data-aos="fade-right">{{ .Params.heading2 }}</h3>
+    <h3 class="home__process--heading text-uppercase display-4 font-weight-bold mb-5" data-bg-text="{{ .Params.heading2 }}" data-aos="fade-right">{{ .Params.heading2 }}</h3>
 
     <div class="row g-5">
 
         <div class="col-lg-6 col-md-12 order-lg-1 order-md-2 order-sm-2 order-2">
-
-
-            <p class="pt-5 display-5 text-dark">{{ .Params.heading3 }}</p>
+            <h3 class="pt-2 text-dark text-uppercase"><strong>{{ .Params.heading3 }}</strong></h3>
 
             <p class="text-primary">{{ .Params.description | safeHTML }}</p>
 
-            <a href="{{ .Site.BaseURL}}contact" class="btn btn-primary my-3">Contact Us For A Quote</a>
+            <a href="{{ .Site.BaseURL}}contact" class="btn btn-lg btn-primary my-3">Contact Us For A Quote</a>
               
         </div>
 

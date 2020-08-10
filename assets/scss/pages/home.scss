@@ -140,4 +140,23 @@
         z-index: 1;
     }
 }
+@media only screen and (max-width: 768px) {
+
+    .home__testimonials--heading::after {
+        display: none;
+
+    }
+
+    .home__about--heading::after {
+            font-size: 60px;
+            top: -10px;
+
+    }
+
+    .home__process--heading::after {
+        font-size:60px;
+        top: -15px;
+
+}
+}
 
