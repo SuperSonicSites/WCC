@@ -32,19 +32,21 @@ process_text3: "We start truck operations at 6am every weekday. We will pick up 
 
 # Testimonial Section
 
-testimonial2: "Chris Bruno"
-testimonial2_desc: "Maintenance Manager at Pacific Sands Resort Tofino"
-testimonial2_site: "www.pacificsands.com"
-testimonial2__desc: "Ryan goes out of his way to deliver to us on time and is always super reliable! Westcoast Connect is great."
+testimonial2: "Debbie Vance"
+testimonial2_desc: "Rotary Club of Ucluelet Charter President"
+testimonial2_site: "https://rotary5020.org/"
+testimonial2__desc: "I use Westcoast Connect regularly for my personal deliveries and for our Rotary Club deliveries. Ryan and Elsie are amazing people who give back to the West Coast communities every chance they get. They truly care. Very reasonable rates, protective safety protocols and excellent customer service. You can count on Westcoast Connect and their awesome team for all your delivery needs."
 
-testimonial1: "Amie & Kent"
-testimonial1_desc: "Owners of Howler’s Family Restaurant Ucluelet"
-testimonial1_site: "www.howlersfamilyrestaurant.com"
-testimonial1__desc: "Westcoast Connect is a staple and true example of how businesses together can grow alongside and support each other! They are our go to hands down!"
+testimonial1: "Chris Bruno"
+testimonial1_desc: "Maintenance Manager at Pacific Sands Resort Tofino"
+testimonial1_site: "www.pacificsands.com"
+testimonial1__desc: "Ryan goes out of his way to deliver to us on time and is always super reliable! Westcoast Connect is great."
 
-testimonial3: "Debbie Vance"
-testimonial3_desc: "Rotary Club of Ucluelet Charter President"
-testimonial3_site: "https://rotary5020.org/"
-testimonial3__desc: "I use Westcoast Connect regularly for my personal deliveries and for our Rotary Club deliveries. Ryan and Elsie are amazing people who give back to the West Coast communities every chance they get. They truly care. Very reasonable rates, protective safety protocols and excellent customer service. You can count on Westcoast Connect and their awesome team for all your delivery needs."
+testimonial3: "Amie & Kent"
+testimonial3_desc: "Owners of Howler’s Family Restaurant Ucluelet"
+testimonial3_site: "www.howlersfamilyrestaurant.com"
+testimonia3__desc: "Westcoast Connect is a staple and true example of how businesses together can grow alongside and support each other! They are our go to hands down!"
+
+
 
 ---
