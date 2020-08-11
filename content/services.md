@@ -1,6 +1,6 @@
 ---
 title: "Our Services"
-description: "Lorem Ipsum"
+description: "We deliver daily from Nanaimo + Port Alberni. Monday to Friday from 8am to 5pm."
 layout: services
 
 heading2: "Delivery"

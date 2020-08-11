@@ -1,6 +1,6 @@
 ---
 title: "About Us"
-description: "Lorem Ipsum"
+description: "We founded Westcoast Connect to help get packages out to the Coast. We go out of our way to help get everything delivered on time, do it with a smile and above all we are friendly."
 layout: about
 
 # Content
