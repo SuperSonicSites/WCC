@@ -1,4 +1,4 @@
-baseURL = "/"
+baseURL = "https://www.westcoastconnect.com/"
 languageCode = "en-ca"
 title = "Westcoast Connect"
 disableKinds = ["taxonomy", "taxonomyTerm"]

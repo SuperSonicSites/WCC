@@ -412,7 +412,7 @@ nav .navbar-brand:hover {
     font-weight: 400; } }
 
 .carousel-inner {
-  height: 430px; }
+  height: 500px; }
   .carousel-inner p {
     color: white; }
   .carousel-inner h3 {
@@ -423,6 +423,10 @@ nav .navbar-brand:hover {
 .testimonial-img {
   width: 150px;
   height: 150px; }
+
+@media (max-width: 768px) {
+  .carousel-inner {
+    height: 620px; } }
 
 .accordion-section .panel-default > .panel-heading {
   border: 0;
