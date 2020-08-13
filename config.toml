@@ -3,7 +3,7 @@ languageCode = "en-ca"
 title = "Westcoast Connect"
 disableKinds = ["taxonomy", "taxonomyTerm"]
 description = "Daily shipping from Nanaimo + Port Alberni to Ucluelet & Tofino"
-googleAnalytics = ""
+googleAnalytics = "UA-165627404-4"
 
 [params]
     # Schema Information
