@@ -32,11 +32,6 @@ process_text3: "We start truck operations at 6am every weekday. We will pick up 
 
 # Testimonial Section
 
-testimonial2: "Debbie Vance"
-testimonial2_desc: "Rotary Club of Ucluelet Charter President"
-testimonial2_site: "https://rotary5020.org/"
-testimonial2__desc: "I use Westcoast Connect regularly for my personal deliveries and for our Rotary Club deliveries. Ryan and Elsie are amazing people who give back to the West Coast communities every chance they get. They truly care. Very reasonable rates, protective safety protocols and excellent customer service. You can count on Westcoast Connect and their awesome team for all your delivery needs."
-
 testimonial1: "Chris Bruno"
 testimonial1_desc: "Maintenance Manager at Pacific Sands Resort Tofino"
 testimonial1_site: "www.pacificsands.com"
