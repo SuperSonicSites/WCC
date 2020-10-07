@@ -45,7 +45,7 @@ testimonial1__desc: "Ryan goes out of his way to deliver to us on time and is al
 testimonial3: "Amie & Kent"
 testimonial3_desc: "Owners of Howler’s Family Restaurant Ucluelet"
 testimonial3_site: "www.howlersfamilyrestaurant.com"
-testimonia3__desc: "Westcoast Connect is a staple and true example of how businesses together can grow alongside and support each other! They are our go to hands down!"
+testimonial3__desc: "Westcoast Connect is a staple and true example of how businesses together can grow alongside and support each other! They are our go to hands down!"
 
 
 
