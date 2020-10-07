@@ -231,14 +231,14 @@ nav .navbar-brand:hover {
 .nav-logo {
   max-width: 200px; }
 
-@media (min-width: 768px) {
+@media (min-width: 1280px) {
   .menu-wrap {
     display: none; }
   .navbar-brand {
     font-size: 0.95rem !important;
     text-align: center; } }
 
-@media (max-width: 768px) {
+@media (max-width: 1280px) {
   .desktopmenu {
     display: none !important; } }
 
@@ -247,7 +247,7 @@ nav .navbar-brand:hover {
   position: fixed;
   top: 0;
   right: 0;
-  z-index: 1; }
+  z-index: 10000; }
 
 .menu-wrap .toggler {
   position: absolute;

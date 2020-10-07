@@ -20,7 +20,7 @@ nav {
 .nav-logo {
     max-width: 200px;
 }
-@media (min-width: 768px) {
+@media (min-width: 1280px) {
     .menu-wrap {
         display: none;
     }
@@ -29,7 +29,7 @@ nav {
       text-align: center;
     }
     }
-@media (max-width: 768px) {
+@media (max-width: 1280px) {
   .desktopmenu  {
     display: none !important;
 }
@@ -40,7 +40,7 @@ nav {
         position: fixed;
         top: 0;
         right: 0;
-        z-index: 1;
+        z-index: 10000;
       }
       .menu-wrap .toggler {
         position: absolute;
