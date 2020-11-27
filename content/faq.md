@@ -17,7 +17,7 @@ Question3: "Q: Do you deliver packages inside?"
 Answer3: "A: No. We are licensed and insured as couriers who will be able to deliver packages door to door. We are not authorized to deliver packages inside homes or job sites. Call us if you have any further questions. TIP: We are authorized to drop items inside your garage (furniture, appliances etc)."
 
 Question4: "Q: Do you pick up from Ikea Depot in Nanaimo?"
-Answer4: "A: No. We are licensed and insured as couriers who will be able to deliver packages door to door. We are not authorized to deliver packages inside homes or job sites. Call us if you have any further questions. TIP: We are authorized to drop items inside your garage (furniture, appliances etc)."
+Answer4: "A: Yes! We are absolutely able to pick up from Ikea Depot in Nanaimo. Ikea has very strict procedures in place to be able to securely pick up/release the order to Westcoast Connect (which is a great thing). Please call us to set this up properly."
 
 Question5: "Q: Do you pick up at HomeDepot, Canadian Tire, Rona etc?"
 Answer5: "A: Yes! Please ensure your order is FULLY paid and ready for pick up to avoid additional charges; call us to ensure this is set up correctly. TIP: We will often need an email of your order confirmation sent to us ahead of pick up."
