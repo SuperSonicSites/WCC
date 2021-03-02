@@ -50,7 +50,7 @@ testimonial2__desc: "We relied on West Coast Connect to move some of the essenti
 testimonial4: "Marla Thirsk"
 testimonial4_desc: ""
 testimonial4_site: ""
-testimonial4__desc: "We relied on West Coast Connect to move some of the essential items for our off grid cabin construction to Tofino from Port Alberni and Nanaimo. They were reliable and we knew our orders would be safe with them! The drivers were very helpful by calling to let us know when they would be at the dock to meet us too!"
+testimonial4__desc: "I am a recognized Artist here on the West Coast and I have always trusted my artwork for shipping across the island with West Coast Connect. They deliver in a timely fashion and are extremely courteous and professional, taking great care of my work. I recommend them without hesitation."
 
 
 testimonial5: "Bryce"
