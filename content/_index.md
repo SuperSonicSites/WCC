@@ -42,6 +42,14 @@ testimonial3_desc: "Owners of Howler’s Family Restaurant Ucluelet"
 testimonial3_site: "www.howlersfamilyrestaurant.com"
 testimonial3__desc: "Westcoast Connect is a staple and true example of how businesses together can grow alongside and support each other! They are our go to hands down!"
 
+testimonial2: "Marcie Callewaert and Lennie John"
+testimonial2_desc: ""
+testimonial2_site: ""
+testimonial2__desc: "We relied on West Coast Connect to move some of the essential items for our off grid cabin construction to Tofino from Port Alberni and Nanaimo. They were reliable and we knew our orders would be safe with them! The drivers were very helpful by calling to let us know when they would be at the dock to meet us too!"
 
+testimonial4: "Marla Thirsk"
+testimonial4_desc: ""
+testimonial4_site: ""
+testimonial4__desc: "We relied on West Coast Connect to move some of the essential items for our off grid cabin construction to Tofino from Port Alberni and Nanaimo. They were reliable and we knew our orders would be safe with them! The drivers were very helpful by calling to let us know when they would be at the dock to meet us too!"
 
 ---
