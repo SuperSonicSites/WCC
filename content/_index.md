@@ -57,4 +57,9 @@ testimonial5: "Bryce"
 testimonial5_desc: "The Hottub Guy"
 testimonial5_site: ""
 testimonial5__desc: "Ryan and the Westcoast Connect crew go out of their way to deliver! They’ve helped me out of more than a couple tight spots. I’m so impressed by the level of service I’ve received from them over the past few years. 10/10 would recommend. "
+
+testimonial6: "Dave Schofield"
+testimonial6_desc: "Eye Watch Services"
+testimonial6_site: ""
+testimonial6__desc: "West coast connect has never let me down,from a hot tub too a small xmas gift or even a 20 ft metal gate! Very impressed with the family friendly feel! Fast on time service! West coast connect has you covered with 3 trucks a day. Very happy customer here no need to go anywhere else!"
 ---
