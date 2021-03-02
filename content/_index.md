@@ -20,7 +20,7 @@ benefit2: "ON TIME"
 benefit2_text: "We ensure your shipping and freight are delivered on time and in top shape."
 
 benefit3: "CHAMBER MEMBERS"
-benefit2_text: "We are proud members of the Ucluelet Chamber Of Commerce."
+benefit3_text: "We are proud members of the Ucluelet Chamber Of Commerce."
 
 # Calculate Section
 
