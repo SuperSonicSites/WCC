@@ -50,7 +50,7 @@ testimonial2__desc: "We relied on West Coast Connect to move some of the essenti
 testimonial4: "Marla Thirsk"
 testimonial4_desc: ""
 testimonial4_site: ""
-testimonial4__desc: "I am a recognized Artist here on the West Coast and I have always trusted my artwork for shipping across the island with West Coast Connect. They deliver in a timely fashion and are extremely courteous and professional, taking great care of my work. I recommend them without hesitation."
+testimonial4__desc: "I am a recognized Artist here on the West Coast and I have always trusted my artwork for shipping across the island with Westcoast Connect. They deliver in a timely fashion and are extremely courteous and professional, taking great care of my work. I recommend them without hesitation."
 
 
 testimonial5: "Bryce"
