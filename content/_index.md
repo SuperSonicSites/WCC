@@ -52,4 +52,9 @@ testimonial4_desc: ""
 testimonial4_site: ""
 testimonial4__desc: "We relied on West Coast Connect to move some of the essential items for our off grid cabin construction to Tofino from Port Alberni and Nanaimo. They were reliable and we knew our orders would be safe with them! The drivers were very helpful by calling to let us know when they would be at the dock to meet us too!"
 
+
+testimonial5: "Bryce"
+testimonial5_desc: "The Hottub Guy"
+testimonial5_site: ""
+testimonial5__desc: "Ryan and the Westcoast Connect crew go out of their way to deliver! They’ve helped me out of more than a couple tight spots. I’m so impressed by the level of service I’ve received from them over the past few years. 10/10 would recommend. "
 ---
