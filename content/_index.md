@@ -61,5 +61,5 @@ testimonial5__desc: "Ryan and the Westcoast Connect crew go out of their way to 
 testimonial6: "Dave Schofield"
 testimonial6_desc: "Eye Watch Services"
 testimonial6_site: ""
-testimonial6__desc: "West coast connect has never let me down,from a hot tub too a small xmas gift or even a 20 ft metal gate! Very impressed with the family friendly feel! Fast on time service! West coast connect has you covered with 3 trucks a day. Very happy customer here no need to go anywhere else!"
+testimonial6__desc: "Westcoast Connect has never let me down,from a hot tub too a small xmas gift or even a 20 ft metal gate! Very impressed with the family friendly feel! Fast on time service! West coast connect has you covered with 3 trucks a day. Very happy customer here no need to go anywhere else!"
 ---
