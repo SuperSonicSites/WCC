@@ -13,7 +13,7 @@ description: "<h4>We deliver daily from Nanaimo & Port Alberni. We pick up from 
 <li>Rona Nanaimo - Yes</li>
 <li>Canadian Tire Nanaimo - Yes</li>
 <li>IKEA Nanaimo Shipping Depot - Yes</li>
-<li>All locations big and small in Nanaimo to Port Alberni are available for pick up.</li></ol>
+<li>All locations big and small in Nanaimo to Port Alberni are available for pick up.</li>
 <ol>"
 
 ---
