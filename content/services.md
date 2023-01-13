@@ -7,7 +7,7 @@ heading2: "Delivery"
 heading3: "Quick, Easy And Affordable"
 
 description: "<h4>We deliver daily from Nanaimo & Port Alberni. We pick up from almost anywhere:</h4>
-
+<br>
 <ol>
 <li>HomeDepot Nanaimo - Yes</li>
 <li>Rona Nanaimo - Yes</li>
