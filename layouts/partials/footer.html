@@ -52,7 +52,7 @@
 <div class="credit py-3 text-white">
       <div class="container d-flex flex-lg-row justify-content-lg-between flex-column align-items-center">
         <div class="pr-lg-2">
-          <p>Copyright © {{ dateFormat "2006" now }} - <a class="" href="/privacy-policy">Privacy Policy</a> </p>
+          <p>Copyright © <span id="year"></span> - <a class="" href="/privacy-policy">Privacy Policy</a> </p>
         </div>   
 
         <div>
@@ -67,4 +67,10 @@
 <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
 <script>
   AOS.init();
+</script>
+<!-- Display Current Year in Footer -->
+<script>
+    document.addEventListener('DOMContentLoaded', (event) => {
+        document.getElementById('year').textContent = new Date().getFullYear();
+    });
 </script>
